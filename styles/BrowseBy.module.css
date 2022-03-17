@@ -1,0 +1,31 @@
+.container{
+    /* border: 1px solid blue */
+}
+
+.wrapper{
+    /* display: flex; */
+    
+}
+.slider{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+.slider::-webkit-scrollbar{
+    display: none;
+}
+.imgcontainer{
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.imgcontainer img{
+    border-radius: 10px;
+    
+}
